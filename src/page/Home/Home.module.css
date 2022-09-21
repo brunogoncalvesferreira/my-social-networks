@@ -1,0 +1,54 @@
+.home {
+    max-width: 300px;
+    width: 90%;
+    margin: 3.75rem auto 0 auto;
+    height: auto;
+
+    text-align: center;
+}
+
+.home img {
+    width: 5.5rem;
+    padding: 0.2rem;
+
+    outline: 4px solid var(--blue200);
+    border: 2px solid var(--blue800);
+    border-radius: 300px;
+}
+
+.home h1 {
+    font-size: 2rem;
+    font-weight: 600;
+    line-height: 1.2;
+    color: var(--blue100);
+}
+
+.home a {
+    font-size: 1.125rem;
+    font-family: var(--fontRobotoMono);
+    line-height: 1.5;
+    color: rgba(237,242,255,0.8);
+
+    text-decoration: none;
+}
+
+/* Animation */ 
+.home img {
+    animation: fromTop .7s .2s backwards;
+}
+
+
+
+@keyframes fromTop {
+    from {
+        opacity: 0;
+        transform: translateY(-30px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+

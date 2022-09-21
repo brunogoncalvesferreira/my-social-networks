@@ -1,0 +1,15 @@
+:root {
+    --white : #ffffff;
+    --blue100: #edf2ff;
+    --blue200: #4263eb;
+    --blue300: #364fc7;
+    --blue800: #00082f;
+    --fontFamilyRoboto: "Roboto", Sans-serif;
+    --fontRobotoMono: "Roboto Mono", Sans-serif;
+}
+
+body {
+    font-family: var(--fontFamilyRoboto);
+    -webkit-font-smoothing: antialiased;
+    background-color: var(--blue800);
+}
