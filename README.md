@@ -4,7 +4,7 @@
 
 Projeto construído para organizar minhas redes sociais.
 
-<p align="center">
+<p align="left">
   <a href="#-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-projeto">Projeto</a>&nbsp;&nbsp;&nbsp;
 </p>
